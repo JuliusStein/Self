@@ -32,7 +32,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
-    <title>Julius Stein | Programmer, Designer, Teacher</title>
+    <title>Julius Stein | Designer, Engineer, Teacher</title>
   </head>
 
   <body>
@@ -53,17 +53,16 @@
     <!-- Hero Section -->
     <section class="hero" id="about">
       <img
-        src="assets/images/wfh_1.svg"
-        alt="jane-doe"
+        src="assets/images/sketch_headshot.png"
+        alt="headshot"
         loading="lazy"
         class="hero-img"/>
       <div class="bio animate__animated animate__shakeX">
         <h2 class="bio-title">About Me</h2>
         <p class="bio-text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia sed
-          dolorem fugit sapiente porro veniam pariatur dolore nostrum delectus
-          inventore tempore minus nemo, iste ullam illo laboriosam maiores
-          repudiandae quos!
+          Currently, I am a Masters student in the Design Engineering Program at Harvard University and a Technical Assistant 
+          in the Artificial Intelligence group at MIT Lincoln Laboratories. Before my current dergree, I taught Computer Science 
+          to high school students in east boston through Teach for America while pursuing a Masters in Education. 
         </p>
       </div>
     </section>
@@ -73,26 +72,126 @@
       <br>
       <h2>More About Me</h2>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-        nesciunt excepturi quos obcaecati incidunt voluptatem ipsam sunt ipsum,
-        autem deleniti cupiditate molestias quis unde quae totam porro dicta
-        iure animi inventore, veniam hic! Omnis nulla, delectus a voluptatibus
+        In undergrad, I studied Computer Science with a specialization in Human-Computer Interaction, as well as Philosophy at the University of Chicago. 
+        Outside of the classroom, I have also worked in software development and product design at startups in Boston and New York, 
+        and taught computer science for a number of non-profits.  
+        
       </p>
       <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur
-        nostrum dolor minus, libero delectus praesentium perferendis
+        During High School, I started a non-profit called Bright Technologies which provided computers and computer hardware education to students 
+        in the south side of Chicago, and while the organization is no longer active, it certainly sparked my love of teaching and my interest in 
+        the potential for novel technologies to transform education and everyday life.
       </p>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
-        consequuntur labore? Ea totam voluptas amet!
+        When not working, I enjoy playing Ice Hockey for the Harvard Men's Club team, working on electronics projects in my workshop, and collecting rocks and minerals.
       </p>
     </section>
 
-    <!-- Skills section -->
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Some of my Recent Projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+          src="assets/images/feltExplodedView.jpg"
+          alt="exploded-view"
+          loading="lazy"
+          class="project-pic"
+          />
+          <h3 class="project-title">Felt</h3>
+          <p class="project-details">
+            A bridge for the deafblind community to connect with the world.
+            Through the combination of computer vision and audio analysis by a shirt-worn pin,
+            Felt allows the deafblind to recognize the emotions of those they
+            ineract with through haptic feedback while a braile display renders the 
+            speech in real time.
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+          src="assets/images/hiddenThreads.png"
+          alt="hiddenThreads"
+          loading="lazy"
+          class="project-pic"
+          />
+          <h3 class="project-title">Hidden Threads</h3>
+          <p class="project-details">
+            A data-driven analysis of the relationship between a victim's dress and 
+            sexual assault in court cases across India. A ml model labels 
+            case transcripts based on language surrounding the victim's dress, and
+            the correlation between the presence of this language and the verdict
+            is explored.
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/print_head.jpg"
+            alt="vertical-print"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Universal FDM 3D Printing</h3>
+          <p class="project-details">
+            While traditional slicers allow for the stable creation of layered 3D prints,
+            they do not allow for the printing of vertical columns, continuous spirals, or countless
+            other geometries. This project explores the creation of a slicer that allows for prints
+            to combine standard layering with continuous extrusion techniques.
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+      </div>
+      <div style="width: 100%; text-align: center; padding-top: 2.5%;">
+        <a href="#" target="_blank" class="project-link" style="font-size: 16pt; font-weight:bold;">More Projects</a>
+      </div>
+    </section>
+    
+    <!-- Publications section -->
     <section class="skills" id="skills">
-      <h2 class="skill-header">My Top Skills</h2>
-
+      <h2 class="skill-header">My Recent Publications</h2>
       <div class="skills-wrapper">
+
+        <div class="pub-card">
+          <h3 class="pub-title">How COVID-19 Affected Computer Science MOOC Learner Behavior and Achievements: A Demographic Study</h3>
+          <h5 class="pub-details">
+            <i>Anindya Roy, Michael Yee, Meghan Perdue, <b>Julius Stein</b>, Ana Bell, Ronisha Carter, and Shigeru Miyagawa. 2022. 
+            How COVID-19 Affected Computer Science MOOC Learner Behavior and Achievements: 
+            A Demographic Study. In Proceedings of the Ninth ACM Conference on Learning @ 
+            Scale (L@S '22), June 1–3, 2022, New York City, NY, USA. ACM, New York, NY, USA, 5 pages.</i>
+          </h5>
+          <p class="pub-details">
+            Learner data from multiple instances of two introductory Python MOOCs, offered before and during the COVID-19 
+            pandemic, were analyzed to see if and how learner behavior and overall learning out- comes changed during the 
+            pandemic. We found a surge in interest during the pandemic, but the certification rate fell short of the pre-pandemic 
+            average. Moreover, this drop in certification rate is more noticeable for the advanced course in the sequence, and 
+            is more pronounced in groups traditionally underrepresented in computer- science and coding communities. Additionally, 
+            we analyzed learners’ interaction with one another on the course discussion forum, and performed a sentiment analysis of 
+            the forum comments using natural language processing, which revealed behavioral trends that differed significantly during the pandemic.
+          </p>
+          <a href="https://doi.org/10.1145/3491140.3528328" target="_blank" class="pub-link">Check it Out</a>
+        </div>
+
+        <div class="pub-card">
+          <h3 class="pub-title">The Relationship Between COVID-19 Severity and Computer Science MOOC Learner Achievement</h3>
+          <h5 class="pub-details">
+            <i>Michael Yee, Anindya Roy, Julius Stein, Meghan Perdue, Ana Bell, Ronisha Carter, and Shigeru Miyagawa. 2022. The Relationship Between COVID-19 
+              Severity and Computer Science MOOC Learner Achievement: A Preliminary Analysis. In Proceedings of the Ninth ACM Conference on Learning @ Scale (L@S ’22), 
+              June 1–3, 2022, New York City, NY, USA. ACM, New York, NY, USA, 5 pages.</i>
+          </h5>
+          <p class="pub-details">
+            Online education, and MOOCs in particular, experienced a dramatic rise during the COVID-19 lockdown. Many had extra time to start learning new topics, 
+            while a significant fraction of the population experienced disruptions in areas such as healthcare, childcare, and potential loss of livelihood, 
+            among others. In this work we analyze learner data from multiple instances of two introductory Python MOOCs, offered before and during the COVID-19 
+            pandemic, to understand how the pandemic affected learner progress and outcomes in these courses. We explore multiple measures of COVID-19 severity, 
+            and find a strong correlation between a measure of severity and relative change in certification rate. Specifically, we find that the change in 
+            certification rate relative to pre-pandemic baselines showed a negative correlation as COVID-19 severity increased.
+          </p>
+          <a href="https://doi.org/10.1145/3491140.3528325" target="_blank" class="pub-link">Check it Out</a>
+
+        </div>
+      </div>
+      <!-- <div class="skills-wrapper">
         <div class="first-set animate__animated animate__pulse">
           <img
             src="assets/icons/icons8-html-5.svg"
@@ -133,67 +232,10 @@
             loading="lazy"
             class="icon icon-card"
           />
-        </div>
+        </div> -->
       </div>
     </section>
 
-    <!-- Projects section -->
-    <section class="projects" id="projects">
-      <h2 class="projects-title">Some of my Recent Projects</h2>
-      <div class="projects-container">
-        <div class="project-container project-card">
-          <img
-          src="assets/images/greenyEarth.png"
-          alt="greeny-earth"
-          loading="lazy"
-          class="project-pic"
-          />
-          <h3 class="project-title">Felt</h3>
-          <p class="project-details">
-            A bridge for the deafblind community to connect with the world.
-            Through the combination of computer vision and audio analysis,
-            Felt allows the deafblind to recognize the emotions of those they
-            ineract with.
-          </p>
-          <a href="#" target="_blank" class="project-link">Check it Out</a>
-        </div>
-        <div class="project-container project-card">
-          <img
-          src="assets/images/greenyEarth.png"
-          alt="greeny-earth"
-          loading="lazy"
-          class="project-pic"
-          />
-          <h3 class="project-title">Hidden Threads</h3>
-          <p class="project-details">
-            A data-driven analysis of the relationship between a victim's dress and 
-            sexual assault in court cases across India. A ml model is used to label
-            case transcripts based on language surrounding the victim's dress, and
-            the correlation between a the presence of this language and the verdict
-            is explored.
-          </p>
-          <a href="#" target="_blank" class="project-link">Check it Out</a>
-        </div>
-        <div class="project-container project-card">
-          <img
-            src="assets/images/greenyEarth.png"
-            alt="greeny-earth"
-            loading="lazy"
-            class="project-pic"
-          />
-          <h3 class="project-title">COVID's effect on MOOC Achievement</h3>
-          <p class="project-details">
-            In two separate studies, we analyzed the effect of COVID-19 on 
-            learner performance in a series of introductory programming MOOCs. 
-            In the first study, we analyzed the effect of COVID severity in a
-            given locale on MOOC completion. In the second study, learner attainment
-            overall was analyzed in a pre-COVID and post-COVID setting.
-          </p>
-          <a href="#" target="_blank" class="project-link">Check it Out</a>
-        </div>
-      </div>
-    </section>
-    
     <!-- Contact section -->
     <section class="contact" id="contact">
       <h2>Get In Touch With Me</h2>
@@ -247,25 +289,25 @@
 
     <!-- Social accounts - Fixed to the right -->
     <div class="socials">
-      <a href="#" target="_blank">
+      <a href="https://www.linkedin.com/in/julius-stein/" target="_blank">
         <img
           src="assets/icons/linkedin_animated.gif"
           alt="Linkedin"
           loading="lazy"
           class="socicon"
       /></a>
-      <a href="#" target="_blank">
+      <a href="https://github.com/JuliusStein" target="_blank">
         <img
           src="assets/icons/github_animated.gif"
           alt="Github"
           loading="lazy"
           class="socicon"/></a>
-      <a href="#" target="_blank">
+      <!-- <a href="#" target="_blank">
         <img
           src="assets/icons/facebook_animated.gif"
           alt="Facebook"
           loading="lazy"
-          class="socicon"/></a>
+          class="socicon"/></a> -->
     </div>
 
     <!-- Scroll up button -->
@@ -278,13 +320,7 @@
 
     <!-- Footer section -->
     <footer>
-      <p class="copy">&copy; Copyright 2022</p>
-      <p class="copy">
-        Built with &#x2661; by
-        <a href="https://twitter.com/koladechris" target="_blank">
-          Me
-        </a>
-      </p>
+      <p class="copy">&copy; Copyright 2023</p>
     </footer>
 
     <!-- Website scripts -->

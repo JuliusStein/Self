@@ -6,7 +6,7 @@
   --normal-font: 400;
   --bold-font: 700;
   --bolder-font: 900;
-  --bg-color-1: #dddddd;
+  --bg-color-1: #f0f0f0;
   --bg-color-2: #e2e2e2;
   --nav-color: #fbfbfb;
   --primary-color: #4756df;
@@ -103,11 +103,13 @@ nav ul li {
   gap: 2.5rem;
   max-width: 68.75rem;
   margin: auto;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
 }
 
 .hero img {
   height: 37.5rem;
-  width: 37.5rem;
+  
 }
 
 .bio {
@@ -142,12 +144,15 @@ nav ul li {
   padding: 0.4rem;
 }
 
-/* -------- Skills Section -------- */
+/* -------- Skills/Publications Section -------- */
 .skills {
-  max-width: 68.75rem;
   margin: auto;
   text-align: center;
-  margin-top: 2.5rem;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: var(--bg-color-2);
 }
 
 .skill-header {
@@ -163,13 +168,28 @@ nav ul li {
   height: 11.25rem;
 }
 
-.icon-card {
-  background-color: var(--bg-color-2);
+.pub-card {
+  background-color: var(--bg-color-1);
   border-radius: 11px;
   box-shadow: 0 3px 10px var(--secondary-shadow);
   padding: 20px;
   margin: 10px;
 }
+
+.pub-title{
+  margin-bottom: var(--bottom-margin);
+}
+
+.pub-details {
+  padding-top: 1.5%;
+  margin-bottom: var(--bottom-margin);
+}
+
+.pub-link {
+  padding-top: 1.5%;
+  margin-bottom: var(--bottom-margin);
+}
+
 
 /* -------- Projects Section -------- */
 .projects {
@@ -218,7 +238,7 @@ nav ul li {
   box-shadow: 0 3px 10px var(--primary-shadow);
   padding: 20px;
   margin: 10px;
-  height: 500px;
+  height: 450px;
 }
 
 /* -------- Contact Section -------- */
